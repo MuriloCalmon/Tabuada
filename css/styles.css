@@ -1,0 +1,117 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+
+    background-color: #15222e;
+    color: #ddd;
+}
+
+
+.main-container {
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-multiplication-table {
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 24px;
+
+}
+
+.container-multiplication-table input {
+    width: 100px;
+    height: 30px;
+
+    margin-top: 10px;
+
+    text-align: center;
+
+
+    border-radius: 10px;
+
+    font-size: 1rem;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+
+.form-div {
+    margin-block: 30px;
+
+    background-color: #fff;
+    color: #000;
+
+    border-radius: 10px;
+}
+
+.btn {
+    font-size: 24px;
+    padding: 10px 5px;
+
+    margin-bottom: 10px;
+
+
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+    cursor: pointer;
+}
+
+.result-multiplication {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 24px;
+
+    margin-block: 30px;
+
+    background-color: #fff;
+    color: #000;
+
+    border-radius: 10px;
+    padding-block: 2rem;
+
+
+}
+
+.row {
+
+    display: flex;
+    gap: 5px;
+
+    justify-content: center;
+    border: 1px solid #000;
+    border-bottom: none;
+
+    padding: .5rem;
+    width: 13rem;
+}
+
+.row:last-child {
+    border-bottom: 1px solid #000;
+}
